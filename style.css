@@ -232,6 +232,16 @@ section {
 .footer a {
     color: #dbeafe;
     text-decoration: none;
+    margin-top: 1000px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .deskripsi {
+        text-align: center;
+    }
 }
 
 .footer a:hover {
